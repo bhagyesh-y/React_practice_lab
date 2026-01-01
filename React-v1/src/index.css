@@ -1,0 +1,25 @@
+nav,
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  gap: 34px;
+}
+nav {
+  background-color: beige;
+}
+.card {
+  width: 20vw;
+  border: 2px solid black;
+  margin: 34px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+}
+img {
+  height: 10vh;
+}
