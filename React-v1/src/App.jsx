@@ -2,6 +2,7 @@ import Card from "./components/Card"
 import Counter from "./components/Counter"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
+import Hooks from "./components/Hooks"
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       </div>
 
       <Footer></Footer> */}
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+      <Hooks></Hooks>
     </>
   )
 }
