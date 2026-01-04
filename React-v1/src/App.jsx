@@ -3,6 +3,11 @@ import Counter from "./components/Counter"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Hooks from "./components/Hooks"
+import LoggerComponent from "./components/LoggerComponent"
+import TimerComponent from "./components/TimerComponent"
+import DataFetcher from "./components/DataFetcher"
+import ResizeComponent from "./components/ResizeComponent"
+import MultiEffectCom from "./components/MultiEffectCom"
 
 
 function App() {
@@ -20,7 +25,12 @@ function App() {
 
       <Footer></Footer> */}
       {/* <Counter></Counter> */}
-      <Hooks></Hooks>
+      {/* <Hooks></Hooks> */}
+      {/* <LoggerComponent></LoggerComponent> */}
+      {/* <TimerComponent></TimerComponent> */}
+      {/* <DataFetcher></DataFetcher> */}
+      {/* <ResizeComponent></ResizeComponent> */}
+      <MultiEffectCom></MultiEffectCom>
     </>
   )
 }
