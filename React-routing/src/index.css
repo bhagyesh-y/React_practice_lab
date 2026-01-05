@@ -1,0 +1,10 @@
+ul {
+  list-style-type: none;
+  background-color: beige;
+  display: flex;
+  padding-right: 10px;
+  gap: 20px;
+}
+.active_link {
+  border: 2px solid red;
+}
